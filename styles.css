@@ -1,6 +1,7 @@
 *{
-    margin: 0;
-    padding:0;
+   
+    margin: auto;
+    padding: auto;
 }
 body{
     height: 100%;
@@ -22,7 +23,7 @@ body{
 }
 .leftpart{
     width: 40%;
-   margin-bottom:40px;
+   margin-bottom:70px;
 
 }
 h1{
@@ -31,8 +32,10 @@ h1{
 }
 h2{
     text-align: right;
+   
     color:white;
     font-size: 20px;
+    margin-bottom: 5px;
 }
 h3{
     text-align: center;
