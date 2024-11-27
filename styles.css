@@ -4,7 +4,7 @@
 }
 body{
     height: 100%;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -16,12 +16,13 @@ body{
 .container{
     margin: 10px 20px;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .leftpart{
     width: 40%;
+   margin-bottom:40px;
 
 }
 h1{
@@ -29,8 +30,9 @@ h1{
     font-size: 80px;
 }
 h2{
+    text-align: right;
     color:white;
-    font-size: 30px;
+    font-size: 20px;
 }
 h3{
     text-align: center;
@@ -41,7 +43,7 @@ h3{
     width: 50%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column;
     text-align: center;
 }
 .loginpage{
